@@ -304,3 +304,8 @@ body{
     overflow: hidden;
     overflow-y: scroll;
  }
+
+
+ .ChatBot{
+    width: 181px;
+ }
