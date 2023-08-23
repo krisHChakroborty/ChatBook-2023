@@ -264,6 +264,8 @@ body{
     .share{
      margin-left: 2px;
     }
+
+
  }
 
 
@@ -284,13 +286,11 @@ body{
 
 
 
-
- /* @media (max-width:1011px){
-   .form_left{
-    margin-left: 10px;
-
-   }
+ 
+  @media (max-width:1011px){
+  
    .down{
-    margin-top: 10px;
+    position: relative;
+    top: 38px;
    }
- } */
+ } 
