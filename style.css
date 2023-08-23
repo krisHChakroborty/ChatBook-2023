@@ -1,4 +1,5 @@
-*,a{
+*,
+a {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -8,11 +9,13 @@
 }
 
 
-.fixed_top{
+
+
+.fixed_top {
     position: fixed;
     top: -5px;
-   width: 100%;
-   z-index: 2;
+    width: 100%;
+    z-index: 2;
 
 }
 
@@ -24,27 +27,26 @@
 
 
 
-body{
+body {
     background-color: rgb(232, 231, 231);
     border-radius: 50%;
 }
-.first_row_wraper{
+
+.first_row_wraper {
     background-color: rgb(255, 255, 255);
 }
 
 .img-fluid {
     border-radius: 11%;
     width: 32px;
-   
+
 }
+
 .search {
     border-radius: 30px;
     background-color: #efefef;
 }
-/* .btn {
-    border-radius: 30px;
-    padding: 4px 45px 4px 45px;
-} */
+
 
 
 
@@ -57,68 +59,98 @@ body{
 
 /* second section */
 
- /* left part */
+/* left part */
 
-.wraper{
+.wraper {
     border-radius: 10px;
 }
 
-.wraper2{
+.wraper2 {
     border-radius: 10px;
 }
-.post_btn{
+
+.post_btn {
     padding: 4px 79px 4px 79px;
     border-radius: 40px;
 }
 
-.btn{
+.btn {
     border-radius: 40px;
     padding: 1px 18px 1px 18px;
     margin-top: 4px;
 }
+
 /* left part */
+
+
+
+
+
 
 
 
 
 /* middle part */
 
-.bg{
+.bg {
     background-color: rgb(0, 120, 233);
     height: 120px;
-    width:70px;
+    width: 70px;
     border-radius: 10px;
 }
 
-.bg2{
+
+
+
+
+.bg2 {
     background-image: url(img/6.jpeg);
     width: 14%;
     background-position: center;
     background-size: cover;
 }
 
-.bg3{
+
+
+
+
+.bg3 {
     background-image: url(img/7.jpeg);
     width: 14%;
     background-position: center;
     background-size: cover;
 }
 
-.bg4{
+
+
+
+
+.bg4 {
     background-image: url(img/8.jpeg);
     width: 14%;
     background-position: center right;
     background-size: cover;
 }
 
-.bg5{
+
+
+
+
+
+.bg5 {
     background-image: url(img/9.jpeg);
     width: 14%;
     background-position: center right;
     background-size: cover;
 }
 
-.bg6{
+
+
+
+
+
+
+.bg6 {
     background-image: url(img/1.jpeg);
     width: 14%;
     background-position: center right;
@@ -136,7 +168,7 @@ body{
 
 
 
-.circle_img{
+.circle_img {
     border-radius: 56%;
     margin-left: -10px;
     width: 24px;
@@ -144,168 +176,239 @@ body{
     padding: 0;
 }
 
-.thumbs{
-    margin-right: 10px;
-   }
 
-   .comments {
+
+
+
+
+.thumbs {
+    margin-right: 10px;
+}
+
+
+
+
+
+.comments {
     margin-left: 113px;
 }
-    
-   .share{
+
+
+
+
+
+
+.share {
     margin-left: 123px;
-   }
-
-
-
-
-
-
-
-
-@media (min-width:765px){
-  .btn-large2{
-    display: none;
-  }
- 
-}
-
-@media (max-width:765px){
-    .img-fluid {
-
-        display: flex;
-        justify-content: start;
-      }
-      .search {
-       display: none;
-
-    }
-    
-
 }
 
 
-@media (max-width:991px){
-    .img,.post{
+
+
+
+
+
+
+
+.scroll_bar {
+    height: 550px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+.ChatBot {
+    width: 181px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================================media query starts============================= */
+
+
+@media (min-width:765px) {
+    .btn-large2 {
         display: none;
     }
 
 }
 
-@media (max-width:565px){
-   .thumbs{
-    margin-left: 23px;
-   }
 
-   .comments{
-    margin-left: 72px;
-   }
-    
-   .share{
-    margin-left: 71px;
-   }
+
+
+
+
+
+@media (max-width:765px) {
+    .img-fluid {
+
+        display: flex;
+        justify-content: start;
+    }
+
+    .search {
+        display: none;
+
+    }
 }
 
 
-@media (max-width:492px){
-    .thumbs{
-     margin-left: 3%;
-    }
- 
-    .comments{
-     margin-left: 13%;
-    }
-     
-    .share{
-     margin-left:14%;
-    }
- }
-
- @media (max-width:425px){
-    .thumbs{
-     margin-left: 7px;
-    }
- 
-    .comments{
-     margin-left: 20px;
-    }
-     
-    .share{
-     margin-left: 30px;
-    }
- }
-
-
- @media (max-width:378px){
-    .thumbs{
-     margin-left: 12px;
-    }
- 
-    .comments{
-     margin-left: 9px;
-    }
-     
-    .share{
-     margin-left: 11px;
-    }
- }
 
 
 
- @media (max-width:358px){
-    .thumbs{
-     margin-left: -2px;
-    }
- 
-    .comments{
-     margin-left: -4px;
-    }
-     
-    .share{
-     margin-left: 2px;
+@media (max-width:991px) {
+
+    .img,
+    .post {
+        display: none;
     }
 
+}
 
- }
 
 
- @media (max-width:315px){
-    .thumbs{
-     margin-left: -10px;
+
+
+@media (max-width:565px) {
+    .thumbs {
+        margin-left: 23px;
     }
- 
-    .comments{
-     margin-left: -7px;
+
+    .comments {
+        margin-left: 72px;
     }
-     
-    .share{
-     margin-left: 2px;
+
+    .share {
+        margin-left: 71px;
     }
-   
- }
+}
 
 
 
 
- 
-  @media (max-width:1011px){
-  
-   .down{
-    position: relative;
-    top: 38px;
-   }
- } 
+
+
+
+@media (max-width:492px) {
+    .thumbs {
+        margin-left: 3%;
+    }
+
+    .comments {
+        margin-left: 13%;
+    }
+
+    .share {
+        margin-left: 14%;
+    }
+}
 
 
 
 
- .scroll_bar{
-    height: 550px;
-    overflow: hidden;
-    overflow-y: scroll;
- }
 
 
- .ChatBot{
-    width: 181px;
- }
+
+@media (max-width:425px) {
+    .thumbs {
+        margin-left: 7px;
+    }
+
+    .comments {
+        margin-left: 20px;
+    }
+
+    .share {
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:378px) {
+    .thumbs {
+        margin-left: 12px;
+    }
+
+    .comments {
+        margin-left: 9px;
+    }
+
+    .share {
+        margin-left: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:358px) {
+    .thumbs {
+        margin-left: -2px;
+    }
+
+    .comments {
+        margin-left: -4px;
+    }
+
+    .share {
+        margin-left: 2px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:315px) {
+    .thumbs {
+        margin-left: -10px;
+    }
+
+    .comments {
+        margin-left: -7px;
+    }
+
+    .share {
+        margin-left: 2px;
+    }
+
+}
+
+
+
+
+
+@media (max-width:1011px) {
+
+    .down {
+        position: relative;
+        top: 38px;
+    }
+}
+
+/*===================================== media query ends==================================== */
