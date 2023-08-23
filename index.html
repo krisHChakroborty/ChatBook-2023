@@ -16,8 +16,8 @@
 <body>
 
     <!---------------------------------------------------- first section ---------------------------------------------------------->
-    <div class="container-fluid">
-        <div class="row first_row_wraper p-3">
+    <div class="container-fluid fixed_top">
+        <div class="row first_row_wraper p-3 ">
 
 
 
@@ -30,7 +30,7 @@
 
 
             <!-- middle part -->
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 form_left">
                 <form class="d-flex" role="search">
                     <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
                 </form>
@@ -82,11 +82,11 @@
 
 
 
-
+<br><br>
 
     <!---------------------------------------------------- second section ---------------------------------------------------------->
 
-    <div class="container-fluid mt-4 ">
+    <div class="container-fluid mt-4 down">
         <div class="row">
 
 
@@ -96,21 +96,18 @@
 
             <!-- left part -->
             <div class="col-lg-3">
-                <div class="row bg-white wraper pt-1">
+                <div class="row bg-primary wraper  pt-1">
                     <div class="col-lg-5 text-end">
-                        <img class="img-fluid" src="img/2.jpg" alt="">
+                        <img class="img-fluid" src="img/2.jpg" alt=""> 
                     </div>
 
                     <div class="col-lg-7">
-                        <p style="font-size: 10px;"> <b> Krish Chakroborty</b> <br> Webkrish549.</p>
+                        <p class="text-white" style="font-size: 10px;"> <b class="text-white" > Krish Chakroborty</b> <br> Webkrish549.</p>
 
                     </div>
-                </div>
+                </div> <br>
 
-
-                <br>
-
-                <ul class="bg-white wraper2 p-2">
+                  <ul class="bg-white wraper2 p-2">
 
 
                     <li> <i class="fa-solid fa-house-chimney  fa-sm  me-2" style="color: #0a3bff;"></i> <a
@@ -122,7 +119,7 @@
 
 
                     <li> <i class="fa-regular fa-comment  fa-sm me-2" style="color: #0143b5;"></i> <a
-                            href="#">Notification</a></li> <br>
+                            href="#"><span class="ms-1">Notification <span class="badge bg-success">12</span></span></a></li> <br>
 
 
                     <li> <i class="fa-regular fa-envelope  fa-sm me-3" style="color: #02358d;"></i><a
@@ -141,9 +138,14 @@
                             href="#">Theme</a></li> <br>
 
 
-                    <li> <i class="fa-solid fa-gear fa-spin fa-sm me-2" style="color: #0623a8;"></i><a
-                            href="#">Settings</a></li>
+                    <li> <i class="fa-solid fa-gear fa-spin fa-sm me-3" style="color: #0623a8;"></i><a
+                            href="#"><span class="ms-1">Settings <span class="badge bg-success">New updated</span></span></a></li>
                 </ul>
+
+
+                <br>
+
+              
 
 
                 <button class="btn btn-primary post_btn">Create A Post </button>

@@ -4,7 +4,25 @@
     text-decoration: none;
     list-style-type: none;
     color: black;
+    font-weight: 600;
 }
+
+
+.fixed_top{
+    position: fixed;
+    top: -5px;
+   width: 100%;
+   z-index: 2;
+
+}
+
+
+
+
+
+
+
+
 
 body{
     background-color: rgb(232, 231, 231);
@@ -262,3 +280,17 @@ body{
      margin-left: 2px;
     }
  }
+
+
+
+
+
+ /* @media (max-width:1011px){
+   .form_left{
+    margin-left: 10px;
+
+   }
+   .down{
+    margin-top: 10px;
+   }
+ } */
