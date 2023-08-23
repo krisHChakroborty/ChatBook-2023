@@ -148,9 +148,9 @@ body{
     margin-right: 10px;
    }
 
-   .comments{
-    margin-left: 121px;
-   }
+   .comments {
+    margin-left: 113px;
+}
     
    .share{
     margin-left: 123px;
@@ -209,7 +209,7 @@ body{
 
 @media (max-width:492px){
     .thumbs{
-     margin-left: 5%;
+     margin-left: 3%;
     }
  
     .comments{
@@ -223,7 +223,7 @@ body{
 
  @media (max-width:425px){
     .thumbs{
-     margin-left: 22px;
+     margin-left: 7px;
     }
  
     .comments{
@@ -238,7 +238,7 @@ body{
 
  @media (max-width:378px){
     .thumbs{
-     margin-left: 22px;
+     margin-left: 12px;
     }
  
     .comments{
@@ -254,7 +254,7 @@ body{
 
  @media (max-width:358px){
     .thumbs{
-     margin-left: 10px;
+     margin-left: -2px;
     }
  
     .comments{
@@ -269,7 +269,7 @@ body{
 
  @media (max-width:315px){
     .thumbs{
-     margin-left: 6px;
+     margin-left: -10px;
     }
  
     .comments{
